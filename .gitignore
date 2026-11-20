@@ -1,0 +1,17 @@
+# Modelo y datos: contienen nombres de pacientes, NO publicar
+modelos/*.pkcls
+*.pkcls
+data/*.xlsx
+data/*.csv
+Healthcare-Diabetes.xlsx
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Streamlit / SO
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
